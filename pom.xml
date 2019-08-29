@@ -44,6 +44,23 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+		
+		<dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>azure-documentdb</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>documentdb-bulkexecutor</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.58</version>
+        </dependency>
+
 
     </dependencies>
 
